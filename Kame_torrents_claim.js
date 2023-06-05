@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         KamePT一键认领
-// @name:en      KamePT torrents claim
-// @namespace    http://kamept.com/
-// @version      0.0.3
-// @description  一键认领
-// @author       Kesa
-// @match        https://kamept.com/userdetails.php?id=*
-// @grant        unsafeWindow
+// @name            KamePT一键认领
+// @name:en         KamePT torrents claim
+// @namespace       http://kamept.com/
+// @version         0.0.4
+// @description     一键认领
+// @description:en  one key claim all the seeding torrents in KamePT.
+// @author          Kesa
+// @match           https://kamept.com/userdetails.php?id=*
+// @license         MIT
+// @grant           unsafeWindow
 // ==/UserScript==
 
 /**
