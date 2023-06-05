@@ -2,7 +2,7 @@
 // @name         KamePT一键认领
 // @name:en      KamePT torrents claim
 // @namespace    http://kamept.com/
-// @version      0.0.2
+// @version      0.0.3
 // @description  一键认领
 // @author       Kesa
 // @match        https://kamept.com/userdetails.php?id=*
