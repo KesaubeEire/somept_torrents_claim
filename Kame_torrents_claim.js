@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 /**
- * 改自大青虫一键认领
+ * 改自大青虫一键认领, 找不到原网页了捏
  */
 
 (function () {
@@ -62,12 +62,12 @@
   unsafeWindow.ClassificationClaimTorrents = async function (element, maxClaim) {
     var total = 0, success = 0;
 
-
     for (const el of element) {
       if (success >= maxClaim) {
         alert("最多只能认领10000个种子！");
         break;
       }
+
       total += 1
 
       const claimId = el.dataset.torrent_id
@@ -82,7 +82,10 @@
         if (xhr.status == 200) {
           // response 就是你要的东西
           var response = xhr.responseText
-          console.log(response)
+          el.style.background = 'lime';
+          el.innerText = '成功';
+
+          // console.log(response)
 
           success += 1;
         }
