@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 /**
- * 改自大青虫一键认领, 找不到原网页了捏
+ * 改自大青虫一键认领, 原网址: https://greasyfork.org/zh-CN/scripts/434757-烧包一键认领
  */
 
 (function () {
